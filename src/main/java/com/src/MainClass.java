@@ -4,7 +4,7 @@ import java.sql.SQLException;
 import com.src.Service.impl.DBlibraryImpl;
 import com.src.Service.impl.DbConnectionImpl;
 /**
- * @author Samith.Jagannath
+ * @author Praveen Suresh 
  *
  */
 public class MainClass {
@@ -12,13 +12,13 @@ public class MainClass {
 		DbConnectionImpl connection= new DbConnectionImpl();
 		DBlibraryImpl dBlibraryImpl = new DBlibraryImpl();
 		Connection connection;
-		String createQuery= "Create table SamithJ("+
+		String createQuery= "Create table PraveenS("+
 							"emp_id integer not null,"+
 							"name varchar(30));";
-		String insertQuery= "insert into SamithJ values"+
+		String insertQuery= "insert into PraveenS values"+
 							"(1,'Samith');";
-		String deleteQuery= "Delete from SamithJ where emp_id = 1";
-		String dropTable = 	"drop table SamithJ";
+		String deleteQuery= "Delete from PraveenS where emp_id = 1";
+		String dropTable = 	"drop table PraveenS";
 		
 		connection.registerConnection();
 		connection = connectionImpl.makeConnection();

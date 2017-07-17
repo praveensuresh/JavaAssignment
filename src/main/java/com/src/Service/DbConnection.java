@@ -1,7 +1,7 @@
 package com.src.Service;
 import java.sql.Connection;
 /**
- * @author Samith.Jagannath
+ * @author Praveen Suresh
  *
  */
 public interface DbConnection {

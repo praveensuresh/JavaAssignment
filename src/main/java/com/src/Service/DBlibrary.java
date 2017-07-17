@@ -2,7 +2,7 @@ package com.src.Service;
 import java.sql.Connection;
 import java.sql.SQLException;
 /**
- * @author Samith.Jagannath
+ * @author Praveen Suresh
  *
  */
 public interface DBlibrary {
